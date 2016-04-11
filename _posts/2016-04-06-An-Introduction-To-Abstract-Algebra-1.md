@@ -45,8 +45,7 @@ $$(y^{-1} \cdot y) \cdot c = y^{-1} \cdot x^{-1}$$
 
 $$e \cdot c = y^{-1} \cdot x^{-1}$$
 
-$$c = y^{-1} \cdot x^{-1}$$
-
+$$c = y^{-1} \cdot x^{-1}$$ 
 $$\square$$
 
 That's all for today. On the next post I'll go over basic examples of groups and some intuition behind some of the properties. 
