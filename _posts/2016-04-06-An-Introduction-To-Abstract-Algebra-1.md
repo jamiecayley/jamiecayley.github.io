@@ -16,7 +16,7 @@ In math speech, a group is a set G equipped with a binary operation, ie a functi
 
 * $$ \forall x, y, z \in G, (x\cdot y)\cdot z = x\cdot (y \cdot z)$$ (associativity)
 * $$ \exists e \in G$$ such that $$\forall x \in G, x \cdot e = e \cdot x = x$$ (identity)
-* $$ \forall x \in G \exists y \in G$$ such that $$x \cdot y = y \cdot x = e$$ (inverse) 
+* $$ \forall x \in G, \text{} \exists y \in G$$ such that $$x \cdot y = y \cdot x = e$$ (inverse) 
 Note: a group G is said to be abelian if $$\forall x, y \in G, x \cdot y = y \cdot x$$ (the group is commutative)
 
 With the definition out of the way, now on to some basic properties! 
