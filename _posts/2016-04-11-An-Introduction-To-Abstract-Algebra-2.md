@@ -26,10 +26,10 @@ Proof: Assume that x has finite order (n). Pick t < s < n. Assume $$x^s = x^t$$ 
 
 To end this post I'll go over some basic properties of $$D_{2n}$$ 
 
-1. $$1, r, r^2, ..., r^{n-1}$$ are all distinct and $$r^n = 1$$ so $$\left|r\right| =n$$ 
-2. $$\left|s\right|$$ =2
+1. $$1, r, r^2, ..., r^{n-1}$$ are all distinct and $$r^n = 1$$ so the order of r is n
+2. The order of s is 2
 3. $$s \neq r^i$$ for any i 
-4. $$sr^i \neq sr^j \forall 0 \leq i, j \leq n-1$$ with $$i \neq j$$ so $$D_{2n} = \{1, r, r^2, ..., r^{n-1}, s, sr, sr^2, ..., sr^{n-1}\}$$ ie each element can be written uniquely as $$s^kr^i$$ for some k=0 or 1 and $$0 \leq i \leq n-1$$
+4. $$sr^i \neq sr^j$$ for all $$0 \leq i, j \leq n-1$$ with $$i \neq j$$ so $$D_{2n} = \{1, r, r^2, ..., r^{n-1}, s, sr, sr^2, ..., sr^{n-1}\}$$ ie each element can be written uniquely as $$s^kr^i$$ for some k=0 or 1 and $$0 \leq i \leq n-1$$
 5. $$rs = sr^{-1}$$. In particular, r and s do not commute so $$D_{2n}$$ is not abelian
 6. $$r^is = sr^{-i}$$ for all $$0 \leq i \leq n$$ 
 
