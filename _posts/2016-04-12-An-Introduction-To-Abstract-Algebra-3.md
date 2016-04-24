@@ -19,7 +19,7 @@ Now onto some basic properties:
 
 The order of $$S_n$$ is n! The permutations of $$\{0,1,2,...,n-1\}$$ are the injective functions of the set to itself because it is finite. An injective function $$\sigma$$ can send 1 to any of the n elements of $$\{0,1,2,...,n-1\}$$ $$\sigma(2)$$ can then be any one of the elements except $$\sigma(1)$$, $$\sigma(3)$$ can be any element except $$\sigma(1)$$ and $$\sigma(2)$$ and so on. Hence there are n*(n-1)*(n-2)*...*2*1=n! possible injective functions from $$\{0,1,2,...,n-1\}$$ to itself. Hence there are precisely n! elements in $$S_n$$ 
 
-let $$\delta \in S_n$$ we say that $$\delta$$ is a cycle if there exists $$a_0 .. a_{k-1}, k \in \mathbb{Z}_{> 0} (\in \{0,...,n-1\}) such that $$\delta(a_i) = a_{ik-1}, 0 \leq i < k-1$$ and sends $$a_{k-1}$$ to $$a_1$$. Such cycle is said to have length k and we call it a k cycle. $$\delta$$ wil be denoted $$(a_1 a_2 ... a_{k-1})$$. 1 cycles are the identity, 2 cycles are transpositions. 
+let $$\delta \in S_n$$ we say that $$\delta$$ is a cycle if there exists $$a_0 .. a_{k-1}, k \in \mathbb{Z}_{> 0} (\in \{0,...,n-1\})$$ such that $$\delta(a_i) = a_{ik-1}, 0 \leq i < k-1$$ and sends $$a_{k-1}$$ to $$a_1$$. Such cycle is said to have length k and we call it a k cycle. $$\delta$$ wil be denoted $$(a_1 a_2 ... a_{k-1})$$. 1 cycles are the identity, 2 cycles are transpositions. 
 
 Now onto some propositions! 
 
