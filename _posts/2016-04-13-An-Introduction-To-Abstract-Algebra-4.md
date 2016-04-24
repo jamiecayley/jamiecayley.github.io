@@ -44,4 +44,4 @@ Remark: If G is a group, $$H \leq G$$ is finite, H is a subgroup if and only if 
 
 Proposition: let $$f: G \rightarrow H$$ be a homomorphism. Then $$f(G) \leq H, f^{-1} \leq H, f^{-1}(\{1_H\}) \leq G$$ More generally if $$K \leq G$$ then $$f(K) \leq H$$ and $$L \leq H$$ then $$f^{-1}(L) \leq G$$ 
 
-Stay tuned for a post on centralizers, normalizers and cyclic groups!
+Stay tuned for a post on centralizers, normalizers and center!
