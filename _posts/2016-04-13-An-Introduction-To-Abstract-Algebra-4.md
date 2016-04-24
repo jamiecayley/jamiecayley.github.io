@@ -12,8 +12,8 @@ First what is a homomorphism? Let $$(G, \cdot), (H, *)$$ be groups. Then $$f:G\r
 Some basic properties of homomorphisms:
 let $$f: G \rightarrow H$$ be a homomorphism 
 
-1. $$f(1_G) = 1_H$$
-2. $$\forall x \in G, f(x^{-1}) = f(x)^{-1}$$
+1. f$$(1_G) = 1_H$$
+2. For all $$x \in G, f(x^{-1}) = f(x)^{-1}$$
 
 Proof:
 
