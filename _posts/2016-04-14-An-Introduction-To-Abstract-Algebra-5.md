@@ -19,9 +19,7 @@ Now onto center and normalizers.
 
 $$C_G(G)$$ is the center of G (set of elements of G that commute) and is usually denoted Z(G)
 
-Normalizers: let G be a group, A a subset of G For $$g \in G$$ let $$gAg^{-1} = \{gag^{-1}:a \in A\}$$ let $$N_G(A) = \{g \in G: gAg = A\}.$$ 
-
-$$N_G(A) = \{g \in G: \forall a \in A, gag^{-1} \in A, g^{-1}ag \in A\}$$
+Normalizers: let G be a group, A a subset of G For $$g \in G$$ let $$gAg^{-1} = \{gag^{-1}:a \in A\}$$ let $$N_G(A) = \{g \in G: gAg = A\}, N_G(A) = \{g \in G: \forall a \in A, gag^{-1} \in A, g^{-1}ag \in A\}$$
 
 Proof: $$N_G(A)$$ is a subset of X. Let $$g \in N_G(A)$$ then $$gag^{-1} \in aAa^{-1}$$ so $$a = gcg^{-1}$$ for some $$c \in A. g^{-1}ag = c \in A$$. X is a subset of $$N_G(A)$$ let $$g \in X, gAg^{-1} \in A, g^{-1}Ag \in A \rightarrow A \subseteq gAg^{-1}$$ so $$gag^{-1} = A \rightarrow g \in N_G(A)$$ 
 
