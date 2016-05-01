@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 3)"
 date:   2016-04-12
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the third post on my abstract algebra series. Today I’ll try to go over permutation groups and some of their basic properties.
