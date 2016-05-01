@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mutation Conservation in Mendelian Genes"
-date:   2015-07-12
+date:   2015-08-12
 categories: Bioinformatics
 ---
 
