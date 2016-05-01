@@ -6,6 +6,7 @@ categories: ALS
 ---
 
 <p>This is the third post on my ALS yeast series. The <a href="http://mtc.science/of-yeast-and-als" rel="nofollow">first post</a> describes existing yeast ALS models and the <a href="http://mtc.science/on-yeast-an-als-part-2" rel="nofollow">second post</a> describes in more detail the project I am working on this summer: chemical modifier screens in yeast models of ALS. </p>
+
 <h2 id="current-state-of-the-project_2">
 <a class="head_anchor" href="#current-state-of-the-project_2" rel="nofollow"> </a>Current state of the project</h2>
 <p>We got e. coli containing plasmids with WT TDP43, WT FUS and TDP43 M337V from the Gitler lab. We performed a miniprep using Zymo’s kit and then did a transformation using standard methods (<a href="http://mcb.berkeley.edu/labs/koshland/Protocols/YEAST/LiAc.html" rel="nofollow">exact protocol here</a>). Two days later we got transformants, which you can see below <br>
