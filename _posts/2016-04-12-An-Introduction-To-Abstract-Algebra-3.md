@@ -7,25 +7,22 @@ categories: Abstract Algebra
 
 Welcome to the third post on my abstract algebra series. Today I’ll try to go over permutation groups and some of their basic properties.
 
-Given a finite set n containing $$\{0, 1, ..., n-1\}$$ n elements, the permutations of the set are exactly all of the one to one and onto functions from S to S (where one to one means injective, which means that if f(x) = f(y), then x = y and onto which means surjective, so for all $$b \in B \exists a \in A$$ such that f(a) = b).
+Given a finite set n containing $${0, 1, ..., n-1}$$ n elements, the permutations of the set are exactly all of the one to one and onto functions from S to S (where one to one means injective, which means that if f(x) = f(y), then x = y and onto which means surjective, so for all $$b \in B \exists a \in A$$ such that f(a) = b).
 
-The set of permutations is denoted $$S_n$$. $$S_n$$ contains an identity, which is the identity function, namely the permutation that sends each element to itself, and it has an inverse function. In general the product in a permutation group is not commutative, but disjoint cycles do commute (disjoint means that the numbers moved by one cycle are leaved fixed by the other). 
+The set of permutations is denoted $$S_n$$. $$S_n$$ contains an identity, which is the identity function, namely the permutation that sends each element to itself, and it has an inverse function. In general the product in a permutation group is not commutative, but disjoint cycles do commute (disjoint means that the numbers moved by one cycle are leaved fixed by the other).
 
-We can actually represent $$D_{2n}$$ as a permutation group: let $$D_{2n} = \{\sigma \in S_n : \sigma \text{preserves the edge relation}\}$$. An element of $$D_{2n}$$ is identified with a permutation of $$\{0, ..., n-1 \}$$ by its action on the vertices. 
+We can actually represent $$D_{2n}$$ as a permutation group: let $$D_{2n} = {\sigma \in S_n : \sigma \text{preserves the edge relation}}$$. An element of $$D_{2n}$$ is identified with a permutation of $${0, ..., n-1 }$$ by its action on the vertices.
 
-A note on notation: permutations can be denoted in various ways, throughout this blog they will be denoted in the following way: (1 2 3 4) denotes the permutation that sends 1 to 2, 2 to 3, 3 to 4, and 4 to 1. 
+A note on notation: permutations can be denoted in various ways, throughout this blog they will be denoted in the following way: (1 2 3 4) denotes the permutation that sends 1 to 2, 2 to 3, 3 to 4, and 4 to 1.
 
-Now onto some basic properties: 
+Now onto some basic properties:
 
-The order of $$S_n$$ is n! The permutations of $$\{0,1,2,...,n-1\}$$ are the injective functions of the set to itself because it is finite. An injective function $$\sigma$$ can send 1 to any of the n elements of $$\{0,1,2,...,n-1\}$$ $$\sigma(2)$$ can then be any one of the elements except $$\sigma(1)$$, $$\sigma(3)$$ can be any element except $$\sigma(1)$$ and $$\sigma(2)$$ and so on. Hence there are n*(n-1)*(n-2)*...*2*1=n! possible injective functions from $$\{0,1,2,...,n-1\}$$ to itself. Hence there are precisely n! elements in $$S_n$$ 
+1) The order of $$S_n$$ is n! The permutations of $${0,1,2,...,n-1}$$ are the injective functions of the set to itself because it is finite. An injective function $$\sigma$$ can send 1 to any of the n elements of $${0,1,2,...,n-1}$$ $$\sigma(2)$$ can then be any one of the elements except $$\sigma(1)$$, $$\sigma(3)$$ can be any element except $$\sigma(1)$$ and $$\sigma(2)$$ and so on. Hence there are n(n-1)(n-2)...2*1=n! possible injective functions from $${0,1,2,...,n-1}$$ to itself. Hence there are precisely n! elements in $$S_n$$
 
-let $$\delta \in S_n$$ we say that $$\delta$$ is a cycle if there exists $$a_0 .. a_{k-1}, k \in \mathbb{Z}_{> 0} (\in \{0,...,n-1\}) such that $$\delta(a_i) = a_{ik-1}, 0 \leq i < k-1$$ and sends $$a_{k-1}$$ to $$a_1$$. Such cycle is said to have length k and we call it a k cycle. $$\delta$$ wil be denoted $$(a_1 a_2 ... a_{k-1})$$. 1 cycles are the identity, 2 cycles are transpositions. 
+2) let $$\delta \in S_n$$ we say that $$\delta$$ is a cycle if there exists $$a_0 .. a_{k-1}, k \in \mathbb{Z}{> 0} (\in {0,...,n-1}) such that $$\delta(a_i) = a{ik-1}, 0 \leq i < k-1$$ and sends $$a_{k-1}$$ to $$a_1$$. Such cycle is said to have length k and we call it a k cycle. $$\delta$$ wil be denoted $$(a_1 a_2 ... a_{k-1})$$. 1 cycles are the identity, 2 cycles are transpositions.
 
-Now onto some propositions! 
+3) Let $$\sigma \in S_n$$ then $$\sigma$$ is a product of disjoint cycles, ie there exist $$a_1 ... a_k \in {0, ..., n-1}$$ distinct $$0 < m_0 < ... < m_p <k$$ $$\sigma == (a_0 ... a_{m_p})(a_{m_p+1} ... a_{m_1})$$.
 
-Proposition: let $$\sigma \in S_n$$ then $$\sigma$$ is a product of disjoint cycles, ie there exist $$a_1 ... a_k \in \{0, ..., n-1\}$$ distinct $$0 < m_0 < ... < m_p <k$$
-$$\sigma == (a_0 ... a_{m_p})(a_{m_p+1} ... a_{m_1})$$ 
-
-Proposition: every permutation is a product of transpositions.
+4) $$S_n$$ is generated by transpositions. Since every permutation in $$S_n$$ is a product of disjoint cycles, we can easily see that we can write the disjoint k cycle $$(a_1 a_2 ... a_k)$$ as $$(a_1 a_k)(a_1 a_{k-1})(a_1 a_{k-2})...(a_1 a_2)$$, hence every permutation is a product of transpositions. 
 
 Stay tuned for homomorphisms and subgroups next.
