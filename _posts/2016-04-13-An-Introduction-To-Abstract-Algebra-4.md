@@ -7,7 +7,7 @@ categories: Abstract Algebra
 
 Welcome to the fourth post on my abstract algebra series. Today I’ll give a quick overview of homomorphism and subgroups. 
 
-###Homomorphisms
+Homomorphisms
 
 Let $$(G, \cdot), (H, *)$$ be groups (where $$\cdot, *$$ are the group operations, respectively). We say $$f: G \rightarrow H$$ is a homomorphism if for all $$x, y \in G$$ $$f(x\cdot y) = f(x)*f(y)$$. 
 Proposition: let $$f: G \rightarrow H$$ be a homomorphism. 
@@ -23,7 +23,7 @@ An isomorphism is a bijective homomorphism.
 
 Proposition: Let $$f: G \rightarrow H$$ be an isomorphism, then $$f^{-1}:H \rightarrow G$$ is an isomorphism. 
 
-Proof: $$f^{-1}$$ is a bijection (inverse of bijection is a bijection). Let $$x, y \in H, x \f(f^{-1}(x)), y = f(f^{-1}(y))$$ where $$f^{-1}(x) = s \in G, f^{-1}(y) = t \in G$$. Then $$F^{-1}(x*y) = f^{-1}(f(s)*f(t))=f^{-1}(f(s\cdot t)) = s\cdot t = f^{-1}(x)\cdot f^{-1}(y)$$ 
+Proof: $$f^{-1}$$ is a bijection (inverse of bijection is a bijection). Let $$x, y \in H, x = f(f^{-1}(x)), y = f(f^{-1}(y))$$ where $$f^{-1}(x) = s \in G, f^{-1}(y) = t \in G$$. Then $$f^{-1}(x*y) = f^{-1}(f(s)*f(t))=f^{-1}(f(s\cdot t)) = s\cdot t = f^{-1}(x)\cdot f^{-1}(y)$$ 
 
 An automorphism is a group isomorphism from some group to itself. We denote the set of automorphisms of a group G by Aut(G). 
 
@@ -33,12 +33,13 @@ Proof: composition by definition is associative. The identity function $$i:G\rig
 
 A monomorphism is an injective homomorphism. $$f: G \rightarrow H$$ is a group homomorphism, then f is a monomorphism if and only if $$f^{-1}(1_H) = \{1_G\}$$ 
 
-###Subgroups 
+Subgroups 
 
 Let G be a group and H a subset of G. We say H is a subgroup of G if H is nonempty and H is closed under products and inverses and we denote it $$H \leq G$$. In other words, $$H \leq G$$ if and only if $$H \neq \{\varnothing\}$$ and $$\forall x, y \in H, x \cdot y^{-1} \in H$$ (or $$x \cdot y \in H$$ if $$H \leq G$$ is finite). 
 
 Proposition: Let $$f: G \rightarrow H$$ be a homomorphism. Then $$f(G) \leq H, f^{-1}(\{1+H\})\leq G$$. More generally, if $$K \leq G$$ then $$f(K) \leq H$$ and if $$L \leq H$$ then $$f^{-1}(L) \leq G$$
 
-Proof: $$x, y \in f(K), x = f(s), y = f(t) \rightarrow s, t \in K. x\cdot y^{-1} = f(s)f(t)^{-1} = f(s\cdot t^{-1}) \in f(K). x, y \in f^{-1}(L), f(x), f(y) \in L. f(x\cdot y^{-1}) = f(x)f(y^{-1}) \in L$$ 
+Proof: $$x, y \in f(K), x = f(s), y = f(t) \rightarrow s, t \in K. x\cdot y^{-1} = f(s)f(t)^{-1} = f(s\cdot t^{-1}) \in f(K)$$. $$x, y \in f^{-1}(L), f(x), f(y) \in L$$. 
+$$f(x\cdot y^{-1}) = f(x)f(y^{-1}) \in L$$.
 
 Stay tuned for a post on centralizers and normalizers next! 
