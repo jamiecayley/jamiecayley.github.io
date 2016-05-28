@@ -13,7 +13,7 @@ Let G be a group. $$A \subseteq G$$ is a subset. Let $$C_G(A) = \{ g \in G : gag
 
 Proposition: The centralizer of A in G is a subgroup of G $$(C_G(A) \leq G)$$
 
-Proof: if $$gh \in C_G(A)$$ then $$gh^{-1} \in C_G(A)$$. Let $$g \on C_G(A)$$ then for all $$a \in A, gag^{-1} = a$$ so $$a = g^{-1}ag$$ which implies $$g^{-1} \in C_G(A)$$. Let $$h, g \in C_G(A)$$ then for $$a \in A, gh^{-1}a(gh^{-1})^{-1} = gh^{-1}ahg^{-1} = gag^{-1} = a$$ so $$gh^{-1} \in C_G(A)$$ which means $$C_G(A)$$ is a subgroup.
+Proof: if $$gh \in C_G(A)$$ then $$gh^{-1} \in C_G(A)$$. Let $$g \in C_G(A)$$ then for all $$a \in A, gag^{-1} = a$$ so $$a = g^{-1}ag$$ which implies $$g^{-1} \in C_G(A)$$. Let $$h, g \in C_G(A)$$ then for $$a \in A, gh^{-1}a(gh^{-1})^{-1} = gh^{-1}ahg^{-1} = gag^{-1} = a$$ so $$gh^{-1} \in C_G(A)$$ which means $$C_G(A)$$ is a subgroup.
 
 A quick note on notation: if $$A = \{a\}$$ the centralizer of A is denoted $$C_G(\{a\})$$.
 
