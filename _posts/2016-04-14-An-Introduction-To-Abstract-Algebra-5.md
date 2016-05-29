@@ -11,7 +11,7 @@ Let G be a group. G is cyclic if there exists a $$g \in G$$ such that $$G = \{g^
 
 For example, $$(\mathbb{Z}, +) = <1>$$ ($$\mathbb{Z}$$ is the group of all integers with addition as the group operation) and $$(\mathbb{Z}/n\mathbb{Z}, +) = <1>$$ ($$\mathbb{Z}/n\mathbb{Z}$$ is the group of integers modulo n, ie integers from 1 to n-1, with addition as the group operation).
 
-A note on notation: when we are working with $$\mathbb{Z}/n\mathbb{Z}$$ all integers (and variables) are modulo n. This is comonly denoted by placing a bar on top of numbers and variables (eg, $$\bar{x}, \bar{2}$$ are both modulo n) but for simplicity I will not use this notation unless not using it would result in ambiguity $$ a\divides b$$ means that a divides b, and (a, b) denotes the greater common divisor of a and b.
+A note on notation: when we are working with $$\mathbb{Z}/n\mathbb{Z}$$ all integers (and variables) are modulo n. This is comonly denoted by placing a bar on top of numbers and variables (eg, $$\bar{x}, \bar{2}$$ are both modulo n) but for simplicity I will not use this notation unless not using it would result in ambiguity $$ a\vert b$$ means that a divides b, and (a, b) denotes the greater common divisor of a and b.
 
 Proposition: the order of an element is equal to the size of the group it generates. If $$H = <x>$$ is infinite then $$x^i = x^j$$ if and only if i = j, hence x has infinite order. If $$H = <x>$$ is finite and $$|H| = n$$ then $$H = \{1, x, ..., x^{n-1}\}$$, so x has order n.
 
