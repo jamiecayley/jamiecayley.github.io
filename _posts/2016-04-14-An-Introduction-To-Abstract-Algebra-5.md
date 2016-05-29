@@ -27,9 +27,9 @@ Proposition: (1) Let $$H = <x>$$ be finite, then for all $$a \in \mathbb{Z}-{0}$
 Proof: (1) $$(x^a)^m = x^{am} = 1$$ if and only if am = 0 if and only if m = 0, so $$x^a$$ has infinite order.
 (2) $$(x^a)^m = x^{am} = 1$$ if and only if am = 0 mod n if and only if $$n| am$$. Let d = (n,a) where $$n = d \cdot k, a = d \cdot l$$ and (k,l) = 1. From that it follows that $$n | am$$ if $$dk | dlm$$ if and only if $$k | lm$$ if and only if $$k | m$$, hence the order of $$x^a$$ is k = $$\frac{n}{(n, a)}$$.
 
-Proposition: (1) if $$H = <x>$$ is finite, with $$a, b \in \mathbb{Z}$$, $$<x^a> = <x^b$$ if and only if $$|a| = |b|$$ (2) If $$H = <x>$$ is finite and $$|H| = n$$ with $$a, b \in \mathbb{Z}$$, $$<x^a> = <x^b$$ if and only if (a,n) = (b,n).
+Proposition: (1) if $$H = <x>$$ is finite, with $$a, b \in \mathbb{Z}$$, $$<x^a> = <x^b$$ if and only if $$|a| = |b|$$ (2) If $$H = <x>$$ is finite and $$|H| = n$$ with $$a, b \in \mathbb{Z}$$, $$<x^a> = <x^b>$$ if and only if (a,n) = (b,n).
 
-Proof: (1) $$<x^a = \{ x^n : n \in \mathbb{Z}\}$$. If $$x^b \in \{ x^n :n \in \mathbb{Z}\}, x^b = x^{am} = b = am$$ so $$a\vert b$$. Similarly $$b \vert a$$ so $$\vert b \vert = \vert a\vert$$. Conversely if $$\vert a\vert = \vert b\vert$$ then $$b = \pm a$$ so $$x^b = x^a$$ or $$x^{-a}$$ and $$<x^a> = <x^{-a}>$$.
-(2) $$<x^a> = <x^b>$$ so $$\vert x^a\vert = \vert x^b\vert$$ so $$\frac{n}{(n,a)} = \frac{n}{(n,b)}$$ so (n,a) = (n,b). Conversely assume (n,a) = (n,b) = d we have a = kd, so $$x^a \in <x^d>$$ which means $$<x^d$$ and $$<x^a> \leq <x^d>$$. Since $$\vert <x^a\vert = \frac{n}{d}, \vert <x^d\vert = \frac{n}{(n,d)} = \frac{n}{d}$$ so $$<x^a> = <x^d>$$. Similarly $$<x^b = <x^d> = <x^a>$$.
+Proof: (1) $$<x^a> = \{ x^n : n \in \mathbb{Z}\}$$. If $$x^b \in \{ x^n :n \in \mathbb{Z}\}, x^b = x^{am} = b = am$$ so $$a\vert b$$. Similarly $$b \vert a$$ so $$\vert b \vert = \vert a\vert$$. Conversely if $$\vert a\vert = \vert b\vert$$ then $$b = \pm a$$ so $$x^b = x^a$$ or $$x^{-a}$$ and $$<x^a> = <x^{-a}>$$.
+(2) $$<x^a> = <x^b>$$ so $$\vert x^a\vert = \vert x^b\vert$$ so $$\frac{n}{(n,a)} = \frac{n}{(n,b)}$$ so (n,a) = (n,b). Conversely assume (n,a) = (n,b) = d we have a = kd, so $$x^a \in <x^d>$$ which means $$<x^d$$ and $$<x^a> \leq <x^d>$$. Since $$\vert <x^a>\vert = \frac{n}{d}, \vert <x^d>\vert = \frac{n}{(n,d)} = \frac{n}{d}$$ so $$<x^a> = <x^d>$$. Similarly $$<x^b> = <x^d> = <x^a>$$.
 
 Stay tuned for a post on equivalence class, quotients, normal groups and Lagrange's theorem!
