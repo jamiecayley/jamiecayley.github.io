@@ -39,16 +39,16 @@ If we don't have an ambiant group G: let H and K be groups. Let $$\phi : K \righ
 
 For example, conjugation is a group action by group automorphism, translation is not ($$gxy \neq gxgy$$).
 
-Let $$G = H\times K$$ and $$(x,y)\box (s,t) = (x\cdot(y*s),yt)$$. Note that the action is trivial.
+Let $$G = H\times K$$ and $$(x,y)\Box (s,t) = (x\cdot(y*s),yt)$$. Note that the action is trivial.
 
 Proposition:
-1) $$(G, \box)$$ is a group
+1) $$(G, \Box)$$ is a group
 2) $$\phi_H : H \rightarrow G$$ defined by $$x \mapsto (x,1)$$ is a group monomorphism. $$\phi_k : K \rightarrow G$$ is defined by $$y \mapsto (y,1)$$ and is also a group monomorphism. We can identify H with $$\tilde{H} = \{(x,1) : x \in H\} \leq G$$ and K with $$\tilde{K} = \{(1,y) : y \in K\} \leq G$$
 3) $$\tilde{H} \cap \tilde{K} = \{1\}, H \unlhd G, HK \leq G/ (x,1) = \tilde{x} \in \tilde{H}. (1,y) = \tilde{y} \in \tilde{K}. \tilde{y}\tilde{x}\tilde{y}^{-1} = (y*x,1)$$
 
 Proof (the proof of 3 is left as an exercise):
-1) $$((x,y) \box (s,t)) \box (u,v) = (x \cdot (y*s), yt) \box (u,v) = ((x \cdot (y*s)\cdot (yt)*u), ytv). (x,y)\box ((s,t)\box (u,v)) = (x,y) \box (s \cdot (t*u), tv) = (x \cdot (y*s)\cdot y(\cdot(t*u)), ytv)$$ Note that (1,1) is the identity, and $$(y^{-1}*x^{-1}, y^{-1})$$ is the inverse of (y,x) and that y*1 = 1.
-2) $$(x,1) \box (s,1) = (x \cdot (t*s), 1\cdot 1) = (x\cdot s,1). (1,y)\box(1,t) = (1 \cdot (g*1), yt) = (1,yt). (x,1) = (1,1)$$ if and only if x = 1. (1,y) = (1,1) if and only if y = 1.
+1) $$((x,y) \Box (s,t)) \Box (u,v) = (x \cdot (y*s), yt) \Box (u,v) = ((x \cdot (y*s)\cdot (yt)*u), ytv). (x,y)\Box ((s,t)\Box (u,v)) = (x,y) \Box (s \cdot (t*u), tv) = (x \cdot (y*s)\cdot y(\cdot(t*u)), ytv)$$ Note that (1,1) is the identity, and $$(y^{-1}*x^{-1}, y^{-1})$$ is the inverse of (y,x) and that y*1 = 1.
+2) $$(x,1) \Box (s,1) = (x \cdot (t*s), 1\cdot 1) = (x\cdot s,1). (1,y)\Box(1,t) = (1 \cdot (g*1), yt) = (1,yt). (x,1) = (1,1)$$ if and only if x = 1. (1,y) = (1,1) if and only if y = 1.
 
 Notation: G (as defined above) is called the semidirect product of H and K and we write $$G = H\times K$$ (for the action *).
 
