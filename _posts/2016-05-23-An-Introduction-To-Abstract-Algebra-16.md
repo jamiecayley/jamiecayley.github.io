@@ -5,7 +5,7 @@ date:   2016-05-23
 categories: Abstract Algebra
 ---
 
-Welcome to the 15th post on my abstract algebra series. Today I'll go over ring homomorphisms and quotients.
+Welcome to the 16th post on my abstract algebra series. Today I'll go over ring homomorphisms and quotients.
 
 Let R be a ring, $$S \subseteq R$$ is a subring of R $$(S \leq R$$) if 1) $$(S, +) \leq (R, +)$$ (equivalently, S is closed under subraction and nonempty)
 2) for all $$x, y \in S xy \in S$$
@@ -51,4 +51,4 @@ $$2 \rightarrow 1$$ was proved above ($$ker(\phi)$$ is an ideal in R)
 
 First isomorphism theorem (for rings): let R and S be rings and $$\phi : R \rightarrow S$$ is a ring homomorphism. Then $$\phi(R) \cong R/ker(\phi)$$ (the proof is left as an exercise to the reader, as it is very similar to the proof of this theorem for groups).
 
-Stay tuned for a more in depth overview of ideals next! 
+Stay tuned for a more in depth overview of ideals next!
