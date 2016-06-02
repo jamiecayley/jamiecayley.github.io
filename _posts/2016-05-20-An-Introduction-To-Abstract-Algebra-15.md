@@ -13,7 +13,7 @@ Let R be a commutative unitary ring. A polynomial is a formal sum $$\sum_{i = 0}
 
 $$R[x]$$ is a ring of polynomials of x with coefficients from R. Addition is defined by $$(\sum_{i=0}^n a_ix^i)+(\sum_{i=1}^n b_iX^i) = \sum_{i=1}^n (a_i+b_i)X^i$$. Multiplication is defined by: $$(\sum_{i=0}^n a_iX^i)(\sum_{j=0}^n b_jX^j) = \sum_{i=0}^n\sum_{j=0}^n a_ib_jX^{i+j}$$ (note that it is commutative because R is commutative). It is associative because $$(\sum_{i=0}^n a_iX^i)\cdot (\sum_{j=0}^nb_jX^j)(\sum_{k=0}^nc_kX^k) =$$ $$ (\sum_{i=0}^n a_iX^i)(\sum_{j=0}^n \sum_{k=0}^n b_jc_kX^{j+k}) = $$ $$\sum_{i=0}^n\sum_{j=0}^n\sum_{k=0}^n a_ib_jc_kX^{i+j+k} = $$ $$ (\sum_{i=0}^na_iX^i)(\sum_{j=0}^nb_jX^j)(\sum_{k=0}^nc_kX^k)$$ distributivity also holds, 1 is the multiplicative identity. Hence $$R[x]$$ is a commutative unitary ring.
 
-Example: $$\mathbb{Q}[x]$$ is the ring of polynomials with rational coefficients. $$\mathbb{Z}/3\mathbb{Z}[x]$$ is a ring of polynomials with coefficients in $$\{0,1,2\}$$. Some sample computations in $$\mathbb{Z}/3\mathbb{Z}[x]: (x^2+2x+1)+(x^3+x+2) = x^3+x^2+3x+2 = x^3+x^2+2$$ (addition) $$(x^2+2x+1)(x^3+x+2) = x^5+2x^4+3x^3+4x^2+5x+2 = x^5+2x^4+2x^3+x^2+2x+2$$ (multiplication). In $$\mathbb{Z}/2\mathbb{Z}[x]$$, $$x^2+2x+1 = (x+1)^2$$ so $$x^2+1$$ is a square (however it is not a square in $$\mathbb{Z}[x]$$).
+Example: $$\mathbb{Q}[x]$$ is the ring of polynomials with rational coefficients. $$\mathbb{Z}/3\mathbb{Z}[x]$$ is a ring of polynomials with coefficients in $$\{0,1,2\}$$. Some sample computations in $$\mathbb{Z}/3\mathbb{Z}[x]: (x^2+2x+1)+(x^3+x+2) = x^3+x^2+3x+2 = x^3+x^2+2$$ (addition) $$(x^2+2x+1)(x^3+x+2) = $$ $$ x^5+2x^4+3x^3+4x^2+5x+2 =$$ $$ x^5+2x^4+2x^3+x^2+2x+2$$ (multiplication). In $$\mathbb{Z}/2\mathbb{Z}[x]$$, $$x^2+2x+1 = $$ $$(x+1)^2$$ so $$x^2+1$$ is a square (however it is not a square in $$\mathbb{Z}[x]$$).
 
 Matrix rings:
 
@@ -30,3 +30,5 @@ Notes:
 * $$M_n(R)$$ has nonzero zero divisers
 
 If R is unitary, the group of units in $$M_n(R)$$ is generally called $$GL_n(R)$$, where GL stands for general linear.
+
+Stay tuned for a post on ring homomorphisms and quotients next! 
