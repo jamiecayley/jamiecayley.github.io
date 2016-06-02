@@ -23,7 +23,7 @@ Examples:
 * ($$M_n(\mathbb{R}), +, \cdot)$$ which is the ring of $$n \times n$$ matrices is a unitary ring.
 * Let R be a ring and X a set, then $$R^x = \{f:X \rightarrow R\}$$ forms a ring with pointwise addition and multiplication ($$f+g = x \mapsto f(x)+g(x), f \cdot g = x \mapsto f(x)\cdot g(x)$$).
 
-A division ring (or skew field) is a unitary ring R such that for all $$x \in R\\ \{0\}$$ there exists $$y \in R, xy = yx = 1$$.
+A division ring (or skew field) is a unitary ring R such that for all $$x \in R\backslash  \{0\}$$ there exists $$y \in R, xy = yx = 1$$.
 
 A field is a commutative division ring. For example. $$(\mathbb{Q}, +, \cdot), (\mathbb{R}, +, \cdot), (\mathbb{C}, +, \cdot)$$ are fields.
 
@@ -37,9 +37,9 @@ Proof:
 2) $$0 = 0 \cdot y = (x+(-x))\cdot y = x \cdot y + (-x)y$$ so $$(-x)y = -xy$$. $$0 = x \cdot 0 = x \cdot (y+(-y)) = xy + x(-y)$$ so $$x(-y) = -xy$$.
 3) Let 1 and e be multiplicative identities. Then $$1 = 1 \cdot e = e$$ so the identity is unique. Also $$(-1)\cdot a = -(1 \cdot a) = -a$$.
 
-Zero divisor: let R be a ring, an element $$x \in R$$ such that $$y \in R \\ \{0\} : xy = 0$$ or $$yx = 0$$. For example, $$\begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}^2 = \begin{bmatrix}0 & 0\\0 & 0\end{bmatrix}$$ so $$\begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}$$ is a zero divisor.
+Zero divisor: let R be a ring, an element $$x \in R$$ such that $$y \in R \backslash  \{0\} : xy = 0$$ or $$yx = 0$$. For example, $$\begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}^2 = \begin{bmatrix}0 & 0\\0 & 0\end{bmatrix}$$ so $$\begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}$$ is a zero divisor.
 
-Unit: let R be a unitary ring, $$x \in R$$ is a unit if there exists $$y \in R : xy = yx = 1$$. A division ring is unitary if every $$x \in R \\ \{0\}$$ is a unit.
+Unit: let R be a unitary ring, $$x \in R$$ is a unit if there exists $$y \in R : xy = yx = 1$$. A division ring is unitary if every $$x \in R \backslash  \{0\}$$ is a unit.
 
 Proposition: if R is a unitary ring, then $$R* = \{x \in R: \exists y \in R xy = yx = 1\}$$ is a group.
 
@@ -55,6 +55,6 @@ A commutative unitary ring whose only zero divisor is 0 is called an integral do
 
 Proposition: A finite integral domain is a field.
 
-Proof: Let R be an integral domain. Pick $$a \in R \\ \{0\}$$. Then $$R \rightarrow R$$ defined by $$x \mapsto a\cdot x$$ is injective. Since $$\vert R \vert = \vert R \vert$$ and both are finite, the map is surjective. Then there exists an $$x \in R$$ such that $$a \cdot x = 1$$.
+Proof: Let R be an integral domain. Pick $$a \in R \backslash  \{0\}$$. Then $$R \rightarrow R$$ defined by $$x \mapsto a\cdot x$$ is injective. Since $$\vert R \vert = \vert R \vert$$ and both are finite, the map is surjective. Then there exists an $$x \in R$$ such that $$a \cdot x = 1$$.
 
-That's all for today! Next up: polynomial rings and matrices. 
+That's all for today! Next up: polynomial rings and matrices.
