@@ -27,8 +27,8 @@ Proposition: Let R be a unitary ring
 1) if $$I \subseteq R$$ is an ideal, then I = R if and only if I contains a unit.
 2) if R is commutative and $$1 \neq 0$$, R is a field if and only if every ieal in R is either $$\{0\}$$ or R.
 
-Proof: 1) If I = R then $$1 \in I$$ so it has a unit. If $$u \in R*$$ and $$u \in I$$ then $$u^{-1} \cdot u \in I$$ so $$1 \in I$$. Then for all $$r \in R, r\cdot 1 = r \in I$$ so R = I.
-2) If R is a field and $$I \subseteq R$$ is an ideal, if $$I = \{0\}$$ then $$I \cap R* = T \cap R \backslash \{0\}$$ is nonempty. Conversely assume every ideal is $$\{0\}$$ or R. Then for all $$u \in R \backslash \{0\}, (u) = R$$. Since $$1 \in R$$ this means there exists a v such that uv = 1 so $$u \in R*$$, hence R is a field.
+Proof: 1) If I = R then $$1 \in I$$ so it has a unit. If $$u \in R^*$$ and $$u \in I$$ then $$u^{-1} \cdot u \in I$$ so $$1 \in I$$. Then for all $$r \in R, r\cdot 1 = r \in I$$ so R = I.
+2) If R is a field and $$I \subseteq R$$ is an ideal, if $$I = \{0\}$$ then $$I \cap R^* = T \cap R \backslash \{0\}$$ is nonempty. Conversely assume every ideal is $$\{0\}$$ or R. Then for all $$u \in R \backslash \{0\}, (u) = R$$. Since $$1 \in R$$ this means there exists a v such that uv = 1 so $$u \in R^*$$, hence R is a field.
 
 Corollary: let F be a field, R a ring and $$f : F \rightarrow R$$ a ring homomorphism. Then either $$f(F) = \{0\}$$ or f is injective.
 
@@ -61,4 +61,4 @@ Corollary: let R be a commutative unitary ring where $$1 \neq 0$$, if $$I \subse
 
 Proof: given tht I is maximal, R/I is a field, so R/I is an integral domain ad therefore I is prime.
 
-Stay tuned for a post on the Chinese Reminder Theorem next! 
+Stay tuned for a post on the Chinese Reminder Theorem next!
