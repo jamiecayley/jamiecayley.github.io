@@ -5,7 +5,7 @@ date:   2016-05-27
 categories: Abstract Algebra
 ---
 
-Welcome to the 17th post on my abstract algebra series. Today I'll go over the Chinese Reminder Theorem.
+Welcome to the 18th post on my abstract algebra series. Today I'll go over the Chinese Reminder Theorem.
 
 First I'll go over some definitions that are relevant to the Chinese Reminder Theorem and content that will be covered in the future.
 
@@ -24,4 +24,4 @@ Assume case k. For k+1: we have $$I_1,...,I_k,I_{k+1}$$ pairwise comaximal ideal
 
 Remark: $$\bigcap_{i \leq k} I_i = \prod_{i \leq k}I_i = \{\sum_{j}\prod_{i} a_{ij} : a_{ij} \in I_i \}$$
 
-Stay tuned for a post on Euclidean domains next! 
+Stay tuned for a post on Euclidean domains next!
