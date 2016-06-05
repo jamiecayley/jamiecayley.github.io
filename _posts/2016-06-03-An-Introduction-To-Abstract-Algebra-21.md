@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 21)"
 date:   2016-06-03
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 21th post on my abstract algebra series. Today I'll go over multivariate polynomials.

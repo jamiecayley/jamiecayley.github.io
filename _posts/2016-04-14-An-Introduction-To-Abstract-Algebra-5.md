@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 5)"
 date:   2016-04-14
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the fifth post on my abstract algebra series. Today I’ll go over centralizers and normalizers.

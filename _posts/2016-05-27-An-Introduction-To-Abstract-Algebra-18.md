@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 18)"
 date:   2016-05-27
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 18th post on my abstract algebra series. Today I'll go over the Chinese Reminder Theorem.

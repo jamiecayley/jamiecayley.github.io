@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 17)"
 date:   2016-05-25
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 17th post on my abstract algebra series. Today I'll give a more in depth overview of ideals.

@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 14)"
 date:   2016-05-18
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 14th post on my abstract algebra series. Today I'll give a brief introduction to rings.

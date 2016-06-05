@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 13)"
 date:   2016-04-29
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 11th post on my abstract algebra series. Today I’ll cover translation action, Cayley's theorem and semi direct product.

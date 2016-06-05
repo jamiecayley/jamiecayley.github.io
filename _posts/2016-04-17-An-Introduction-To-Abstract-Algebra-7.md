@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 7)"
 date:   2016-04-17
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the seventh post on my abstract algebra series. Today I’ll go over quotients, normal groups and Lagrange's theorem.
@@ -50,4 +50,4 @@ Proof: Let n be the cardinality of H and k the number of left cosets of H in G. 
 
 Let G be a group (possibly infinite) and $$H \leq G$$, the number of left cosets of H in G is called the index of H in G and is denoted by $$\vert G : H \vert$$. In the case of finite groups the index of H in G is $$\frac{\vert G \vert}{\vert H \vert}$$ and in the case of infinite groupsm subgrouos may have finite or infinite index (eg $$\{0\} \in \mathbb{Z}$$ has infinite index and $$<n \in \mathbb{Z}$$ has index n for every $$n > 0$$).
 
-Stay tuned for a post on the isomorphism theorems next! 
+Stay tuned for a post on the isomorphism theorems next!

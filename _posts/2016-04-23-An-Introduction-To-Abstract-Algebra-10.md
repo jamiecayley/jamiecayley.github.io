@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 10)"
 date:   2016-04-23
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the tenth post on my abstract algebra series. Today I’ll cover the alternating group.

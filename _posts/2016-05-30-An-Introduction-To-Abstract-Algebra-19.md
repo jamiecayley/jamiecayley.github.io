@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 19)"
 date:   2016-05-30
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 19th post on my abstract algebra series. Today I'll go over Euclidean domains.

@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 15)"
 date:   2016-05-20
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 15th post on my abstract algebra series. Today I'll go over polynomial rings and matrices.
@@ -31,4 +31,4 @@ Notes:
 
 If R is unitary, the group of units in $$M_n(R)$$ is generally called $$GL_n(R)$$, where GL stands for general linear.
 
-Stay tuned for a post on ring homomorphisms and quotients next! 
+Stay tuned for a post on ring homomorphisms and quotients next!

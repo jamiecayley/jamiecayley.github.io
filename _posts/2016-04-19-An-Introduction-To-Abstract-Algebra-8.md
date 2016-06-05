@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 8)"
 date:   2016-04-19
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the eight post on my abstract algebra series. Today I’ll go over the isomorphism theorems.

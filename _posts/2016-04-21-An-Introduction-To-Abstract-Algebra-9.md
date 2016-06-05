@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 9)"
 date:   2016-04-21
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the ninth post on my abstract algebra series. Today I’ll go over some theorems and properties relating to the classification of finite simple groups.
@@ -25,7 +25,7 @@ Jordan Holder theorem: let H be a finite group with $$G \neq 1$$. Then
 Theorem: there is a list consisting of 18 (infinite) families of simple groups and 26 simple groups not belonging to these families (the sporadic simple groups) such that every finite simple group is isomorphic to one of the groups in this list.
 
 Feilt-Thompson theorem: if G is a simple group of odd order, then $$G \cong \mathbb{Z}_p$$ for some prime p.
-Theorem: the finite group G is solvable if and only if for every divisor n of $$\vert G \vert$$ such that $$(n, \frac{\vert G \vert}{n}) = 1$$, G has a subgroup of order n. 
+Theorem: the finite group G is solvable if and only if for every divisor n of $$\vert G \vert$$ such that $$(n, \frac{\vert G \vert}{n}) = 1$$, G has a subgroup of order n.
 
 These theorems are all related to the Holder program, which has two main goals: classifying all simple groups, and given groups A and B figuring out how to find all groups G with $$N \unlhd G$$ such that $$N \cong B$$ and $$G/N \cong A$$.
 

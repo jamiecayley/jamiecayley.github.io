@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 20)"
 date:   2016-06-01
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 20th post on my abstract algebra series. Today I'll go over PIDs and UFDs.

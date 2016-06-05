@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Abstract Algebra (Part 16)"
 date:   2016-05-23
-categories: Abstract Algebra
+categories: Abstract_Algebra
 ---
 
 Welcome to the 16th post on my abstract algebra series. Today I'll go over ring homomorphisms and quotients.
