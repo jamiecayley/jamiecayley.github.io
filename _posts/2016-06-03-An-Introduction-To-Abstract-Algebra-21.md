@@ -29,4 +29,4 @@ If $$P \in R[x]$$ is a polynomial we define c(P) to be the gcd of the $$a_i, P =
 
 Corollary to Gauss' lemma: Let $$P \in R[x]$$, c(P) = 1. P is irreducible in $$R[x]$$ if and only if P is irreducible on $$F[x]$$ (here $$F[x]$$ is Frac(R)).
 
-Stay tuned for a post n polynomial roots and basic properties of fields! 
+Stay tuned for a post n polynomial roots and basic properties of fields!

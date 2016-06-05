@@ -49,8 +49,8 @@ Fundamental theorem of arithmetic: $$\mathbb{Z}$$ is a UFD
 
 Proof: $$\mathbb{Z}$$ is euclidean $$\rightarrow \mathbb{Z}$$ is a PID $$\rightarrow \mathbb{Z}$$ is a UFD.
 
-Proposition: let R be a UFD, then prime $$\rightleftarrow$$ irreducible
+Proposition: let R be a UFD, then prime $$\Leftrightarrow$$ irreducible
 
 Proof: prime $$\rightarrow$$ irreducible follows from the ring being integral. Irreducible $$\rightarrow$$ prime: assume $$p, a, b \in R$$ are such that $$p \vert ab$$ so there exists a c in R such that cp =ab. Let $$a = \prod p_i, b = \prod q_j, c = \prod r_p$$ $$p \cdot \prod r_p = \prod p_i \prod q_j$$. By uniqueness we might assume that p and $$p_0$$ are associated so $$p_0 = up, u \in R^*$$. Therefore $$a = p_0 \cdot \prod_{i > 0} p_i = p \cdot (u \cdot \prod_{i >0} p_i)$$ so p divides a and we're done.
 
-Stay tuned for a post on multivariate polynomials next! 
+Stay tuned for a post on multivariate polynomials next!
