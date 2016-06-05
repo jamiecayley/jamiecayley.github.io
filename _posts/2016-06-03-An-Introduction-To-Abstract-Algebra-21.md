@@ -15,7 +15,12 @@ Proposition: if R is an integral domain then $$R[X_1,..,X_n]$$ is an integral do
 
 Lemma: R is a ring, $$I \subseteq R$$ is an ideal. $$\phi: R[x] \rightarrow R/I[x], \pi: R \rightarrow R/I, \sum a_iX^i \mapsto \sum \pi(a_i)X^i$$. $$\phi$$ is a ring homomorphism and ker($$\phi) = I[x] = I \cdot R[x] = \{ \sum a_iX^i: a_i \in I\}$$.
 
-Proof: $$\phi(\sum_i a_i X^i \cdot \sum_j b_j X^j) =$$  $$ \phi (\sum_k(\sum_{i+j = k}a_ib_j)x^k) =$$  $$ \sum_k \pi(\sum_{i+j = k}a_ib_j)x^k =$$  $$ \sum_k(\sum_{i+j=k}\pi(a_i)\pi(b_j))x^k =$$  $$ \sum_i\pi(a_i)x^i \cdot \sum_j \pi(b_j)x^j =$$  $$ \phi(\sum_i a_ix^i)\phi(\sum_j b_jx^j$$ $$ker(\phi) =$$ $$ \{\sum a_ix^i : \sum \pi(a_i) x^i =0\}$$. For all i, $$\pi(a_i) = 0, a_i \in I$$ so the kernel is equal to $$\{\sum a_ix^i : a_i \in I \}$$.
+Proof: $$\phi(\sum_i a_i X^i \cdot \sum_j b_j X^j) =$$  $$ \phi (\sum_k(\sum_{i+j = k}a_ib_j)x^k) =$$
+$$ \sum_k \pi(\sum_{i+j = k}a_ib_j)x^k =$$
+$$ \sum_k(\sum_{i+j=k}\pi(a_i)\pi(b_j))x^k =$$
+$$ \sum_i\pi(a_i)x^i \cdot \sum_j \pi(b_j)x^j =$$
+$$ \phi(\sum_i a_ix^i)\phi(\sum_j b_jx^j$$ $$ker(\phi) =$$
+$$ \{\sum a_ix^i : \sum \pi(a_i) x^i =0\}$$. For all i, $$\pi(a_i) = 0, a_i \in I$$ so the kernel is equal to $$\{\sum a_ix^i : a_i \in I \}$$.
 
 Corollary: Let R be a ring, $$I \subseteq R$$ a prime ideal, then $$I \cdot R[x]$$ is prime
 

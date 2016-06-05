@@ -21,7 +21,11 @@ Proof: let $$a, b \in \mathbb{Z}, b \neq 0$$. The intervals $$[\vert b \vert n, 
 
 Proposition: Let K be a field, $$K[X]$$ is euclidean for $$N(P) = deg(P), (N(0)=0)$$.
 
-Proof: let $$A, B \in K[X], B \neq 0$$. If A = 0, then Q=R=0. If $$deg(A) < deg(B)$$ then Q = 0, R = A. If $$deg(A) > deg(B)$$ we proceed by induction on deg(A).$$A = \sum_{i=0}^m a_iX^i, B = \sum_{i=0}^n b_iX^i, C-A = \frac{a_m}{b_n} X^{m \cdot n}B$$. By induction $$C = QB+R$$ where $$deg(R) < deg(B)$$.$$A = C+ \frac{a_m}{b_n} X^{m-n}B = (Q + \frac{a_m}{b_n}X^{m-n})B+R$$. In fact in that case Q and R are unique. $$A = Q_1B+R_1 = $$ $$Q_2B+R_2. A - Q_1B = $$ $$R_1, A+Q_2B = $$ $$-R_2 < deg(N)$$. So $$deg(B(Q_1 Q_2)) < deg(B)$$. $$deg(B)+deg(Q_1-Q_2)$$ so $$Q_1 = Q_2$$ and $$R_1 = R_2$$.
+Proof: let $$A, B \in K[X], B \neq 0$$. If A = 0, then Q=R=0. If $$deg(A) < deg(B)$$ then Q = 0, R = A. If $$deg(A) > deg(B)$$ we proceed by induction on deg(A).$$A = \sum_{i=0}^m a_iX^i, B = \sum_{i=0}^n b_iX^i, C-A = \frac{a_m}{b_n} X^{m \cdot n}B$$. By induction $$C = QB+R$$ where $$deg(R) < deg(B)$$.$$A = C+ \frac{a_m}{b_n} X^{m-n}B = (Q + \frac{a_m}{b_n}X^{m-n})B+R$$. In fact in that case Q and R are unique. $$A = Q_1B+R_1 = $$
+$$Q_2B+R_2. A - Q_1B = $$
+$$R_1, A+Q_2B = $$
+$$-R_2 < deg(N)$$. So $$deg(B(Q_1 Q_2)) < deg(B)$$.
+$$deg(B)+deg(Q_1-Q_2)$$ so $$Q_1 = Q_2$$ and $$R_1 = R_2$$.
 
 Proposition: Let R be an Euclidean domain, if $$I \subseteq R$$ is an ideal then I is principal.
 
