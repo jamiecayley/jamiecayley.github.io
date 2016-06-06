@@ -5,7 +5,7 @@ date:   2016-06-03
 categories: Abstract_Algebra
 ---
 
-Welcome to the 21th post on my abstract algebra series. Today I'll go over multivariate polynomials.
+Welcome to the 21st post on my abstract algebra series. Today I'll go over multivariate polynomials.
 
 Let R be a ring and $$X_1, ..., X_K$$ be variables. We define $$R[X_1,...,X_k] = R[X_1,...,X_{k-1}][X_k]$$. An element of $$R[X_1,...,X_k]$$ is of the form $$\sum a_{\alpha_1,...,\alpha_k}X_1^{\alpha_1},...,X_k^{\alpha_k}$$ (finite sum).
 
@@ -34,4 +34,6 @@ If $$P \in R[x]$$ is a polynomial we define c(P) to be the gcd of the $$a_i, P =
 
 Corollary to Gauss' lemma: Let $$P \in R[x]$$, c(P) = 1. P is irreducible in $$R[x]$$ if and only if P is irreducible on $$F[x]$$ (here $$F[x]$$ is Frac(R)).
 
-Stay tuned for a post n polynomial roots and basic properties of fields!
+
+
+Stay tuned for a post on polynomial roots!
