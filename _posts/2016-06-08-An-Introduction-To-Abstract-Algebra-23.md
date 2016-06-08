@@ -19,7 +19,7 @@ If $$F \leq K$$ is a subring of K *where F and K are fields) we say that K is a 
 
 Let F be a field. A F vector space is a set V with 2 operations: $$+ : V^2 \rightarrow V$$, $$\cdot : F \rightarrow V$$ that satisfies the following axioms:
 1) $$(V, +)$$ is an abelian group
-2) for all $$\lambda, \mu \in F$$ and $$x, y \in V, (\lambda + \mu) \cdot x =$$ $$\lambda \cdot x + \mu \cdot x$$ $$\lambda \cdot (x+y) = \lambda \cdot x + \mu \cdot y$$ $$(\lambda \mu) \cdot x = \lamda \cdot (\mu \cdot x)$$, $$1_f \cdot x = x$$
+2) for all $$\lambda, \mu \in F$$ and $$x, y \in V, (\lambda + \mu) \cdot x =$$ $$\lambda \cdot x + \mu \cdot x$$ $$\lambda \cdot (x+y) = \lambda \cdot x + \mu \cdot y$$ $$(\lambda \mu) \cdot x = \lambda \cdot (\mu \cdot x)$$, $$1_f \cdot x = x$$
 
 Lemma: if $$K \vert F$$ is a field extension then $$(K, +, \cdot)$$ is an F vector space.
 
