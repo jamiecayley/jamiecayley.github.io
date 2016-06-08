@@ -19,7 +19,7 @@ If $$F \leq K$$ is a subring of K *where F and K are fields) we say that K is a 
 
 Let F be a field. A F vector space is a set V with 2 operations: $$+ : V^2 \rightarrow V$$, $$\cdot : F \rightarrow V$$ that satisfies the following axioms:
 1) $$(V, +)$$ is an abelian group
-2) for all $$\lambda, \mu \in F$$ and $$x, y \in V, (\lambda + \mu) \cdot x =$$ $$\lambda \cdot x + \mu \cdot x$$ 4$\lambda \cdot (x+y) = \lambda \cdot x + \mu \cdot y$$ $$(\lambda \mu) \cdot x = \lamda \cdot (\mu \cdot x)$$, $$1_f \cdot x = x$$
+2) for all $$\lambda, \mu \in F$$ and $$x, y \in V, (\lambda + \mu) \cdot x =$$ $$\lambda \cdot x + \mu \cdot x$$ $$\lambda \cdot (x+y) = \lambda \cdot x + \mu \cdot y$$ $$(\lambda \mu) \cdot x = \lamda \cdot (\mu \cdot x)$$, $$1_f \cdot x = x$$
 
 Lemma: if $$K \vert F$$ is a field extension then $$(K, +, \cdot)$$ is an F vector space.
 
@@ -27,4 +27,4 @@ dim(K) is the degree of the extension $$K \vert F$$ and is denoted $$[K :F]$$ (n
 
 Theorem: ket F be a field, $$P \in F[x]$$ an irreducible polynomial There exists a field extension $$K \vert F$$ such that P has a root in K.
 
-Stay tuned for a post on algebraic extensions next! 
+Stay tuned for a post on algebraic extensions next!
