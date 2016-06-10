@@ -35,7 +35,7 @@ $$M_{\alpha, F}$$ is a minimal polynomial of $$\alpha$$ over F.
 
 Remark: $$F[x]/(M_{\alpha, F}) \cong F(\alpha)$$ so $$[F(\alpha): F] = deg M_{\alpha, F} = deg(\alpha/F)$$
 
-Examples: $$i/\mathbb{R}$$ has minimal polynomial $$x^2+1$$ (deg 2), $$\sqrt{2}/\mathbb{Q}$$ has minimal polynomial $$x^2-2$$ (deg 2), $$\sqr(2)/\mathbb{R}$$ has minimal polynomial $$x - \sqrt(2)$$ (deg 1), j/Q has minimal polynomial $$x^2+x+1$$ (deg 2)
+Examples: $$i/\mathbb{R}$$ has minimal polynomial $$x^2+1$$ (deg 2), $$\sqrt{2}/\mathbb{Q}$$ has minimal polynomial $$x^2-2$$ (deg 2), $$\sqrt(2)/\mathbb{R}$$ has minimal polynomial $$x - \sqrt(2)$$ (deg 1), j/Q has minimal polynomial $$x^2+x+1$$ (deg 2)
 
 Proposition: $$\alpha$$ is algebraic over F if and only if $$[F(\alpha): F]$$ is finite.
 
@@ -45,4 +45,4 @@ Corollary: let $$K \vert F$$ be a field extension and $$\alpha \in K$$ algebraic
 
 Proof: let $$\beta \in F(\alpha)$$, then $$F \leq F(\beta) \leq F(\alpha)$$ so $$[F(\alpha):F] \geq [F(\beta):F] \leq \infty$$ so $$\beta$$ is algebraic over F.
 
-Stay tuned for a post on algebraic closure next! 
+Stay tuned for a post on algebraic closure next!
