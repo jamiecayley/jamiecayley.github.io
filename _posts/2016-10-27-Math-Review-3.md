@@ -48,6 +48,7 @@ The following series are convergent for all real x unless otherwise stated. In t
 * $$cosh(x) = 1 + \frac{x^2}{2!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^{2r}}{(2r)!}$$
 * $$ln(1+x) = x-\frac{x^2}{2}+\frac{x^3}{3}-... = \sum_{r=1}^{\infty} (-1)^{r-1} \frac{x^r}{r} (-1 < x \leq 1)$$
 * $$ln(1-x) = -x-\frac{x^2}{2}-\frac{x^3}{3}-...=-\sum_{r=1}^{\infty} \frac{x^r}{r} (-1 \leq x < 1)$$
+
 Note that ln(x) itself has no Maclaurin series, as it is not defined at x = 0. $$\sqrt[3]{x}$$ has no Maclaurin series as its first derivative is not defined at x=0. 
 
 Example: the expansion of $$e^{\frac{-x^2}{2}}$$ is obtained from that of $$e^x$$ directly: recall $$e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...$$. Plugging in $$\frac{-x^2}{2}$$ for x we obtain: $$1+(\frac{-1}{2}x^2)+(\frac{-1}{2}x^2)(\frac{-1}{2}x^2)(\frac{1}{2})+(\frac{-1}{2}x^2)(\frac{-1}{2}x^2)(\frac{-1}{2}x^2)(\frac{1}{6})$$. Simplifying we get: $$1-\frac{1}{2}x^2+\frac{1}{8}x^4-\frac{1}{48}x^6+...$$. 
