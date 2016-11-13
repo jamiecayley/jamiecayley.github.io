@@ -23,15 +23,15 @@ We have the following rules for functions:
 
 A function is periodic if there is a $$T \in \mathbb{R}$$ such that if $$0 < T < \infty, f(x+T) = f(x)$$ for all $$x \in X$$. Periodic functions are said to exhibit translational symmetry. 
 
-###Trigonometric functions
+##Trigonometric functions
 
 The sine and cosine functions have range $$[-1,1]$$, so a function of the form $$r sin(nx+\alpha)$$ has range $$[-r,r]$$. r is the amplitude and the period is $$\frac{2\pi}{n}$$. The phase is $$\alpha$$. The range of the tangent function is $$\mathbb{R}$$. 
 
-###The exponential function
+##The exponential function
 
 The exponential function exp(x) (also denoted $$e^x$$) can be defined as the sum of the convergent series: $$exp(x) = 1+x+\frac{x^2}{2!} + \frac{x^3}{3!} + ...$$. $$e^x$$ can also be defined by $$\lim_{n \rightarrow \infty} (1 + \frac{x}{n})^n = e^x$$
 
-###Hyperbolic functions 
+##Hyperbolic functions 
 
 Any function $$f$$ defined on a domain which is symmetrical about the origin can be expressed as the sum of an odd function and an even function as follows: $$f(x) = \frac{1}{2}(f(x)-f(-x))+\frac{1}{2}(f(x)+f(-x))$$. Taking $$f(x) = e^x$$ we obtain the hyperbolic functions: $$sinh x = \frac{e^x-e^{-x}}{2}$$ and $$cosh x = \frac{e^x+e^{-x}}{2}$$. tanhx, cosechx, sechx, and cothx are defined as expected. The hyperbolic functions have simular properties to the trigonometric functions (eg $$cosh^2x-sinh^2x = 1, 1-tanh^2x = sech^2x, coth^2x -1 = cosech^2x$$). Also note that $$coshx+sinhx = e^x$$ by construction. 
 
@@ -42,7 +42,7 @@ The inverse hyperbolic functions are degined on the given domains and can be wri
 * $$cosh^{-1}x = ln(x+ \sqrt{x^2-1}), x \in [0, \infty)$$
 * $$tanh^{-1}x = \frac{1}{2} \frac{ln(1+x)}{(1-x)}$$
 
-###Limits
+##Limits
 
 The limit of $$f(x)$$ as $$x$$ tends to $$a$$ is a number $$l$$ such that we can make f(x) as close as we like to $$l$$ by taking $$x$$ very close (but not equal) to $$a$$. 
 
@@ -50,7 +50,7 @@ Some important limits for trig functions: for any acute angle x, sin x < x < tan
 
 Limits for exponential and logarithmic functions: As mentioned above, $$e^x = lim_{n \rightarrow \infty} (1+ \frac{x}{n})^n$$. Letting $$n = \frac{1}{p}$$ we have $$e^x = lim_{p \rightarrow 0}(1+px)^{1/p}$$. Since the inverse function of $$(1+px)^{1/p}$$ is $$\frac{x^p -1}{p}$$ the inverse function of $$e^x$$ can be expressed as $$ln x = lim_{p \rightarrow 0}(\frac{x^p -1}{p})$$. 
 
-###Curve sketching
+##Curve sketching
 
 To sketch the graph of a function follow these steps:
 * set y = 0, x = 0 to find the intersections with the x axis and y axis respectively. 
