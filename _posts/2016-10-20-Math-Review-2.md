@@ -35,7 +35,7 @@ Parametric differentiation
 
 If $$x=x(t)$$ and $$y=y(t)$$ then $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt}$$ provided $$dx/dt \neq 0$$. 
 
-Example: find $$\frac{dy}{dx}$$ when $$x = t^3-t$$ and $$y = 4-t^2$$. $$dx/dt = 3t&2-1, dy/dt = -2t$$. Therefore $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{-2t}{3t^2-1}$$. 
+Example: find $$\frac{dy}{dx}$$ when $$x = t^3-t$$ and $$y = 4-t^2$$. $$dx/dt = 3t^2-1, dy/dt = -2t$$. Therefore $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{-2t}{3t^2-1}$$. 
 
 Implicit differentiation 
 
@@ -43,7 +43,7 @@ Examples:
 
 $$\frac{dy}{dx} sin(x)+y*cos(x) = 2x^2-3y^2 \frac{dy}{dx}$$. Hence $$\frac{dy}{dx} = \frac{3x^2-y*cos(x)}{sin(x)+3y^2}$$. 
 
-Given $$xy+y^2 = 2x, y = y(t)$$ find $$\frac{dy}{dx}, \frac{d^2y}{dx^2}$$. $$xy'+y+2yy' = 2$$. Therefore $$y' = \frac{2-y}{x+2y}$$. $$y'' = \frac{y-2-(x+4)y'}{(x+2y)^2$$ so $$y'' = \frac{-8}{(x+2y)^2$$. 
+Given $$xy+y^2 = 2x, y = y(t)$$ find $$\frac{dy}{dx}, \frac{d^2y}{dx^2}$$. $$xy'+y+2yy' = 2$$. Therefore $$y' = \frac{2-y}{x+2y}$$. $$y'' = \frac{y-2-(x+4)y'}{(x+2y)^2}$$ so $$y'' = \frac{-8}{(x+2y)^3}$$. 
 
 Logarithmic differentiation
 
@@ -55,7 +55,7 @@ Leibniz's rule
 
 Let $$f$$ and $$g$$ be n times differentiable functions. let $$h$$ be defined by $$h(x) = f(x)g(x)$$. Then $$h$$ is also n times differentiable and $$h^{(n)}(x) = \sum_{r=0}^n \binom{n}{r}f^{(r)}(x)g^{(n-r)}(x)$$, where $$\binom{n}{r} = \frac{n!}{r!(n-r)!}$$. 
 
-Example: find $$\frac{d^3(x^3e^{2x})}{dx^3}$$. Let $$f(x) = x^3, g(x) = e^{2x}$$. Then $$f'(x) = 3x^2, f''(x) = 6x, f'''(x) = 6$$ and $$g'(x) = 2e^{2x}, f''(x) = 4e^{2x}, f'''(x) = 8e^{2x}$$. Note that $$\binom{3}{0} = 1, \binom{3}{1} = 3, \binom{3}{2} = 3, \binom{3}{3} = 1$$. Using Leibniz's rule we obtain $$\frac{d^3(x^3e^{2x})}{dx^3} = x^3*8e^{2x}+3*3x^2*4e^{2x}+3*6x*2e^{2x}+6*e^{2x} = 2e^{2x}(4x^3+18x^2+18x+3)$$. 
+Example: find $$\frac{d^3(x^3e^{2x})}{dx^3}$$. Let $$f(x) = x^3, g(x) = e^{2x}$$. Then $$f'(x) = 3x^2, f''(x) = 6x, f'''(x) = 6$$ and $$g'(x) = 2e^{2x}, f''(x) = 4e^{2x}, f'''(x) = 8e^{2x}$$. Note that $$\binom{3}{0} = 1, \binom{3}{1} = 3, \binom{3}{2} = 3, \binom{3}{3} = 1$$. Using Leibniz's rule we obtain $$\frac{d^3(x^3e^{2x})}{dx^3} = x^3*8e^{2x}$$+$$3*3x^2*4e^{2x}$$+$$3*6x*2e^{2x}$$+$$6*e^{2x} = 2e^{2x}(4x^3+18x^2+18x+3)$$. 
 
 Radius of Curvature
 
