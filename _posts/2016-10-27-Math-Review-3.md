@@ -41,13 +41,13 @@ Some common Maclaurin series
 
 The following series are convergent for all real x unless otherwise stated. In trigonometric series, x must be in radians. 
 
-* $$e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^r}{r!}$$
-* $$sin(x) = x-\frac{x^3}{3!}+\frac{x^5}{5!}-...= \sum_{r=0}^{\infty} (-1)^r \frac{x^{2r+1}}{(2r+1)!}$$
-* $$cos(x) = 1 - \frac{x^2}{2!}+\frac{x^4}{4!}-...=\sum_{r=0}^{\infty} (-1)^r\frac{x^{2r}}{(2r)!}$$
-* $$sinh(x) = x+\frac{x^3}{3!}+\frac{x^5}{5!}+... = \sum_{r=0}^{\infty} \frac{x^{2r+1}}{(2r+1)!}$$
-* $$cosh(x) = 1 + \frac{x^2}{2!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^{2r}}{(2r)!}$$
-* $$ln(1+x) = x-\frac{x^2}{2}+\frac{x^3}{3}-... = \sum_{r=1}^{\infty} (-1)^{r-1} \frac{x^r}{r} (-1 < x \leq 1)$$
-* $$ln(1-x) = -x-\frac{x^2}{2}-\frac{x^3}{3}-...=-\sum_{r=1}^{\infty} \frac{x^r}{r} (-1 \leq x < 1)$$
+* $$e^x$$ = $$1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^r}{r!}$$
+* $$sin(x)$$ = $$x-\frac{x^3}{3!}+\frac{x^5}{5!}-...= \sum_{r=0}^{\infty} (-1)^r \frac{x^{2r+1}}{(2r+1)!}$$
+* $$cos(x)$$ = $$1 - \frac{x^2}{2!}+\frac{x^4}{4!}-...=\sum_{r=0}^{\infty} (-1)^r\frac{x^{2r}}{(2r)!}$$
+* $$sinh(x)$$ = $$x+\frac{x^3}{3!}+\frac{x^5}{5!}+... = \sum_{r=0}^{\infty} \frac{x^{2r+1}}{(2r+1)!}$$
+* $$cosh(x)$$ = $$1 + \frac{x^2}{2!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^{2r}}{(2r)!}$$
+* $$ln(1+x)$$ = $$x-\frac{x^2}{2}+\frac{x^3}{3}-... = \sum_{r=1}^{\infty} (-1)^{r-1} \frac{x^r}{r} (-1 < x \leq 1)$$
+* $$ln(1-x)$$ = $$-x-\frac{x^2}{2}-\frac{x^3}{3}-...=-\sum_{r=1}^{\infty} \frac{x^r}{r} (-1 \leq x < 1)$$
 
 Note that ln(x) itself has no Maclaurin series, as it is not defined at x = 0. $$\sqrt[3]{x}$$ has no Maclaurin series as its first derivative is not defined at x=0. 
 
