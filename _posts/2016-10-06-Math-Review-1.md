@@ -46,7 +46,7 @@ Limits
 
 The limit of $$f(x)$$ as $$x$$ tends to $$a$$ is a number $$l$$ such that we can make f(x) as close as we like to $$l$$ by taking $$x$$ very close (but not equal) to $$a$$. 
 
-Some important limits for trig functions: for any acute angle x, sin x < x < tan x. Dividing through by sin x, $$1 < \frac{x}{sinx} < \frac{1}{cosx}$$ so $$cos x < \frac{sinx}{x} < 1$$. As $$x \rightarrow 0, cosx \rightarrow 1$$ so $$\frac{sinx}{x} \rightarrow 1$$. It can be deduced that $$lim_{n \rightarrow 0} \frac{sin(x)}{x} = 1, lim_{x /rightarrow 0} \frac{1-cos(x)}{x} = 0, lim_{x \rightarrow 0} \frac{tan(x)}{x} = 1$$. 
+Some important limits for trig functions: for any acute angle x, sin x < x < tan x. Dividing through by sin x, $$1 < \frac{x}{sinx} < \frac{1}{cosx}$$ so $$cos x < \frac{sinx}{x} < 1$$. As $$x \rightarrow 0, cosx \rightarrow 1$$ so $$\frac{sinx}{x} \rightarrow 1$$. It can be deduced that $$lim_{n \rightarrow 0} \frac{sin(x)}{x} = 1, lim_{x \rightarrow 0} \frac{1-cos(x)}{x} = 0, lim_{x \rightarrow 0} \frac{tan(x)}{x} = 1$$. 
 
 Limits for exponential and logarithmic functions: As mentioned above, $$e^x = lim_{n \rightarrow \infty} (1+ \frac{x}{n})^n$$. Letting $$n = \frac{1}{p}$$ we have $$e^x = lim_{p \rightarrow 0}(1+px)^{1/p}$$. Since the inverse function of $$(1+px)^{1/p}$$ is $$\frac{x^p -1}{p}$$ the inverse function of $$e^x$$ can be expressed as $$ln x = lim_{p \rightarrow 0}(\frac{x^p -1}{p})$$. 
 
