@@ -19,7 +19,7 @@ The Cauchy product
 
 We can add and substract convergent series to obtain another series with radius of convergence at least as large as the samller of the radii of convergence of the original series. We can multiply two convergent series together, to obtain the Cauchy product, thus $$(\sum_{n=1}^{\infty} a_n)(\sum_{n=0}^{\infty} b_n) = \sum_{n=0}^{\infty} c_n$$ where $$c_n = \sum_{j=0}^n a_jb_{n-j} = a_0b_n + a_1b_{n-1}+...+a_nb_0$$. 
 
-Example: the bionmial series for $$\frac{1}{1-x^2} = 1+x^2+x^4+x^6+...$$ converges for $$\vert x \vert < 1$$. We find the series expansion for $$\frac{1}{(1-x^2)^2}$$ by finding the Cauchy product of the series with itself: $$\frac{1}{(1-x^2)^2} = (1+x^2+x^4+x^6+x^8+...)(1+x^2+x^4+x^6+x^8+...)$$ Note that $$a_0 = b_0 = 1$$, $$a_1 = b_1 = x^2$$, $$a_2 = b_2 = x^4$$, $$$a_3 = b_3 = x^6$$, $$a_4 = b_4 = x^8$$. Then $$c_0 = a_0b+0 = 1$$, $$c_1 = a_0b_1+a_1b_0 = 2x^2$$, $$c_2 = a_0b_2+a_1b_1+a_2b_0$$ =$$x^4+(x^2)(x^2)+x^4 = 3x^4$$, $$c_3 = a_0b_3+a_1b_2+a_2b_1+a_3b_0$$ = $$x^6+(x^2)(x^4)+(x^4)(x^2)+x^6 = 4x^6$$, $$c_4 = a_0b_4+a_1b_3+a_2b_2+a_3b_1+a_4b_0$$ = $$x^8+(x^2)(x^6)+(x^4)(x^4)+(x^6)(x^2)+x^8$$ = $$5x^8$$. It follows that $$\frac{1}{(1-x^2)^2} = (1+x^2+x^4+x^6+x^8+...)(1+x^2+x^4+x^6+x^8+...) = 1+2x^2+3x^4+4x^6+5x^8+..$$. The interval of convergence of this series is the same as the original series, ie $$\vert x \vert < 1$$. 
+Example: the bionmial series for $$\frac{1}{1-x^2} = 1+x^2+x^4+x^6+...$$ converges for $$\vert x \vert < 1$$. We find the series expansion for $$\frac{1}{(1-x^2)^2}$$ by finding the Cauchy product of the series with itself: $$\frac{1}{(1-x^2)^2} = (1+x^2+x^4+x^6+x^8+...)(1+x^2+x^4+x^6+x^8+...)$$ Note that $$a_0 = b_0 = 1$$, $$a_1 = b_1 = x^2$$, $$a_2 = b_2 = x^4$$, $$a_3 = b_3 = x^6$$, $$a_4 = b_4 = x^8$$. Then $$c_0 = a_0b+0 = 1$$, $$c_1 = a_0b_1+a_1b_0 = 2x^2$$, $$c_2 = a_0b_2+a_1b_1+a_2b_0$$ =$$x^4+(x^2)(x^2)+x^4 = 3x^4$$, $$c_3 = a_0b_3+a_1b_2+a_2b_1+a_3b_0$$ = $$x^6+(x^2)(x^4)+(x^4)(x^2)+x^6 = 4x^6$$, $$c_4 = a_0b_4+a_1b_3+a_2b_2+a_3b_1+a_4b_0$$ = $$x^8+(x^2)(x^6)+(x^4)(x^4)+(x^6)(x^2)+x^8$$ = $$5x^8$$. It follows that $$\frac{1}{(1-x^2)^2} = (1+x^2+x^4+x^6+x^8+...)(1+x^2+x^4+x^6+x^8+...) = 1+2x^2+3x^4+4x^6+5x^8+..$$. The interval of convergence of this series is the same as the original series, ie $$\vert x \vert < 1$$. 
 
 Differentiating power series
 
@@ -43,8 +43,8 @@ The following series are convergent for all real x unless otherwise stated. In t
 * $$e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^r}{r!}$$
 * $$sin(x) = x-\frac{x^3}{3!}+\frac{x^5}{5!}-...= \sum_{r=0}^{\infty} (-1)^r \frac{x^{2r+1}}{(2r+1)!}$$
 * $$cos(x) = 1 - \frac{x^2}{2!}+\frac{x^4}{4!}-...=\sum_{r=0}^{\infty} (-1)^r\frac{x^{2r}}{(2r)!}$$
-* $$sinh(x) = x+\frac{x^3}{3!}+\frac{x^5}{5!}+... = \sum{r=0}^{\infty} \frac{x^{2r+1}}{(2r+1)!}$$
-* $$cosh(x) = 1 + \frac{x^2}{2!}+\frac{x^4}{4!}+... = \sum_{r=0}{\infty} \frac{x^{2r}}{(2r)!}$$
+* $$sinh(x) = x+\frac{x^3}{3!}+\frac{x^5}{5!}+... = \sum_{r=0}^{\infty} \frac{x^{2r+1}}{(2r+1)!}$$
+* $$cosh(x) = 1 + \frac{x^2}{2!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^{2r}}{(2r)!}$$
 * $$ln(1+x) = x-\frac{x^2}{2}+\frac{x^3}{3}-... = \sum_{r=1}^{\infty} (-1)^{r-1} \frac{x^r}{r} (-1 < x \leq 1)$$
 * $$ln(1-x) = -x-\frac{x^2}{2}-\frac{x^3}{3}-...=-\sum_{r=1}^{\infty} \frac{x^r}{r} (-1 \leq x < 1)$$
 Note that ln(x) itself has no Maclaurin series, as it is not defined at x = 0. $$\sqrt[3]{x}$$ has no Maclaurin series as its first derivative is not defined at x=0. 
