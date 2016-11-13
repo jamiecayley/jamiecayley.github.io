@@ -63,7 +63,7 @@ The radius of curvature of $$y = f(x)$$ is defined as $$\rho = \frac{[1+(dy/dx)^
 
 L'Hopital's rule
 
-Let f and g be differentiable real valued functions with $$f(a) = g(a) = 0$$. The $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f'(a)}{g'(a)}$$ provided $$g'(a) \neq 0$$. If $$f'(a) = g'(a) = 0$$ we can repeat the process and obtain $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f''(x)}{g''(x)}$$. If $$lim_{x \rightarrow a} f(x) = lim{x \rightarrow a} g(x) = \infty$$ then $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f'(a)}{g'(a)}$$. 
+Let f and g be differentiable real valued functions with $$f(a) = g(a) = 0$$. The $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f'(a)}{g'(a)}$$ provided $$g'(a) \neq 0$$. If $$f'(a) = g'(a) = 0$$ we can repeat the process and obtain $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f''(x)}{g''(x)}$$. If $$lim_{x \rightarrow a} f(x) = lim_{x \rightarrow a} g(x) = \infty$$ then $$lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{f'(a)}{g'(a)}$$. 
 
 Related rates of change
 
