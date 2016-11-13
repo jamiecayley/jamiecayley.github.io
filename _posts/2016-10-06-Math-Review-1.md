@@ -14,6 +14,7 @@ Let X and Y be sets. A function $$f: X \rightarrow Y$$ is a rule which assigns t
 If $$f(-x) = f(x)$$ for all $$x \in X$$ we say that $$f$$ is an even function. The graph of an even function is symmetric about the y axis. Similarly, if $$f(-x) = -f(x)$$ for all $$x \in X$$ then we say that $$f$$ is an odd function. The graph of an odd function is the same when rotated by 180 degrees about the origin. 
 
 We have the following rules for functions: 
+
 * odd $$\pm$$ odd = odd
 * even $$\pm$$ even = even
 * odd $$\pm$$ even = neither odd nor even
@@ -38,9 +39,10 @@ Any function $$f$$ defined on a domain which is symmetrical about the origin can
 Osborne's rule: to convert a trig identity into a hyperbolic one replace cos by cosh and sin by sinh but whenever $$sin^2$$ occurs either explicitly or implicitly, change the sign. Examples: $$sin(A+B) = sin(A)cos(B)+cos(A)sin(B)$$ becomes $$sinh(A+B) = sinh(A)cos(B)+cosh(A)sinh(B)$$, $$cos(A+B) = cos(A)cos(B)-sin(A)sin(B)$$ becomes $$cosh(A+B) = cosh(A)cosh(B)+sinh(A)sinh(B)$$, $$tan(A-B) = \frac{tan(A)-tan(B)}{1+tan(A)tan(B)}$$ becomes $$tanh(A-B) = \frac{tanh(A)-tanh(B)}{1-tanh(A)tanh(B)}$$. 
 
 The inverse hyperbolic functions are degined on the given domains and can be written in logarithm form: 
-* $$sinh^{-1}x = ln(x+ \sqrt{x^2+1}), x \in \mathbb{R}$$
-* $$cosh^{-1}x = ln(x+ \sqrt{x^2-1}), x \in [0, \infty)$$
-* $$tanh^{-1}x = \frac{1}{2} \frac{ln(1+x)}{(1-x)}$$
+
+* $$sinh^{-1}x$$ = $$ln(x+ \sqrt{x^2+1}), x \in \mathbb{R}$$
+* $$cosh^{-1}x$$ = $$ln(x+ \sqrt{x^2-1}), x \in [0, \infty)$$
+* $$tanh^{-1}x$$ = $$\frac{1}{2} \frac{ln(1+x)}{(1-x)}$$
 
 Limits
 
@@ -53,6 +55,7 @@ Limits for exponential and logarithmic functions: As mentioned above, $$e^x = li
 Curve sketching
 
 To sketch the graph of a function follow these steps:
+
 * set y = 0, x = 0 to find the intersections with the x axis and y axis respectively. 
 * when the denominator of a rational function approaches zero then $$y \rightarrow \pm \infty$$. At such value of x there is a vertical asymptote. 
 * Find $$z = lim_{x \rightarrow \pm \infty}f(x)$$. If the limit exits, there is a horizontal asymptote at y = z.
