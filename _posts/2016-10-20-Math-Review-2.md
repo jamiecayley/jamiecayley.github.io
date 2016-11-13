@@ -12,24 +12,26 @@ Let f be a function defined in some neighbourhood of a point $$(x, f(x))$$. If t
 Derivatives of hyperbolic functions 
 
 From the definitions of sinh and cosh in terms of exponentials it follows that $$\frac{d}{dx} sinh(x) = cosh(x)$$ and $$\frac{d}{dx} cosh(x) = sinh(x)$$. Using the quotient and composite function rules we can obtain the following derivatives:
-* $$\frac{d}{dx} sinh(ax+b) = a*cosh(ax+b)$$
-* $$\frac{d}{dx} cosh(ax+b) = a*sinh(ax+b)$$
-* $$\frac{d}{dx} tanh(ax+b) = a*sech^2(ax+b)$$
-* $$\frac{d}{dx} coth(ax+b) = a*cosech^2(ax+b)$$
-* $$\frac{d}{dx} sech(ax+b) = a*sech(ax+b)+tanh(ax+b)$$
-* $$\frac{d}{dx} cosech(ax+b) = a*cosech(ax+b)coth(ax+b)$$
+
+* $$\frac{d}{dx} sinh(ax+b)$$ = $$a*cosh(ax+b)$$
+* $$\frac{d}{dx} cosh(ax+b)$$ = $$a*sinh(ax+b)$$
+* $$\frac{d}{dx} tanh(ax+b)$$ = $$a*sech^2(ax+b)$$
+* $$\frac{d}{dx} coth(ax+b)$$ = $$a*cosech^2(ax+b)$$
+* $$\frac{d}{dx} sech(ax+b)$$ = $$a*sech(ax+b)+tanh(ax+b)$$
+* $$\frac{d}{dx} cosech(ax+b)$$ = $$a*cosech(ax+b)coth(ax+b)$$
 
 Derivatives of inverse functions
 
 By the chain rule ($$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$$) it follows that $$\frac{d}{dx} f^{-1}(x) = \frac{1}{f'(f^{-1}(x))}$$ 
 
 For example, let $$f(x) = sin(x)$$. Then $$f^{-1}(x) = arcsin(x), f'(x) = cos(x)$$. Then $$\frac{d}{dx}f^{-1}(x) = \frac{1}{f'(f^{-1}(x))} = \frac{d}{dx} arcsin(x) = \frac{1}{cos(arcsin(x))} = \frac{1}{\sqrt{1-x^2}}$$ Below is a list of some common inverse an hyperbolic derivatives: 
-* $$\frac{d}{dx} arcsin(x) = \frac{1}{\sqrt{1-x^2}}, x \in (-1,1)$$
-* $$\frac{d}{dx} arcos(x) = \frac{-1}{\sqrt{1-x^2}}, x \in (-1,1)$$
-* $$\frac{d}{dx} arctan(x) = \frac{1}{1+x^2}$$
-* $$\frac{d}{dx} arcsinh(x) = \frac{1}{\sqrt{1+x^2}}$$
-* $$\frac{d}{dx} arcosh(x) = \frac{1}{\sqrt{x^2-1}}, x \in (1,\infty)$$
-* $$\frac{d}{dx} archtanh(x) = \frac{1}{1-x^2}, x \in (-1,1)$$
+
+* $$\frac{d}{dx} arcsin(x)$$ = $$\frac{1}{\sqrt{1-x^2}}, x \in (-1,1)$$
+* $$\frac{d}{dx} arcos(x)$$ = $$\frac{-1}{\sqrt{1-x^2}}, x \in (-1,1)$$
+* $$\frac{d}{dx} arctan(x)$$ = $$\frac{1}{1+x^2}$$
+* $$\frac{d}{dx} arcsinh(x)$$ = $$\frac{1}{\sqrt{1+x^2}}$$
+* $$\frac{d}{dx} arcosh(x)$$ = $$\frac{1}{\sqrt{x^2-1}}, x \in (1,\infty)$$
+* $$\frac{d}{dx} archtanh(x)$$ = $$\frac{1}{1-x^2}, x \in (-1,1)$$
 
 Parametric differentiation
 
