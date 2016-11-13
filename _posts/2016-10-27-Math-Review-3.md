@@ -40,6 +40,7 @@ Provided $$f^{[n]}(c)$$ exists for all $$n \in \mathbb{N}$$, we can represent $$
 Some common Maclaurin series
 
 The following series are convergent for all real x unless otherwise stated. In trigonometric series, x must be in radians. 
+
 * $$e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+... = \sum_{r=0}^{\infty} \frac{x^r}{r!}$$
 * $$sin(x) = x-\frac{x^3}{3!}+\frac{x^5}{5!}-...= \sum_{r=0}^{\infty} (-1)^r \frac{x^{2r+1}}{(2r+1)!}$$
 * $$cos(x) = 1 - \frac{x^2}{2!}+\frac{x^4}{4!}-...=\sum_{r=0}^{\infty} (-1)^r\frac{x^{2r}}{(2r)!}$$
