@@ -5,7 +5,7 @@ date:   2016-10-20
 categories: Calculus
 ---
 
-Welcome to the second part of my Math Review! The topic of this post will be derivatives (the majority of them uninteresting) and the one part of calculus I actually think is pretty cool: Leibniz's rule to find the nth derivative of a product of two functions)
+Welcome to the second part of my Math Review! The topic of this post will be derivatives (the majority of them uninteresting) and the one part of calculus I actually think is pretty cool: Leibniz's rule to find the nth derivative of a product of two functions.
 
 Let f be a function defined in some neighbourhood of a point $$(x, f(x))$$. If the limit $$lim_{\delta x \rightarrow 0} \frac{f(x) - f(a)}{x-a}$$ exists then f is said to be differentiable at $$(x, f(x))$$. Alternatively $$f'(a) = \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a}$$
 
