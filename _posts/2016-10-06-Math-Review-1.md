@@ -1,9 +1,8 @@
-
 ---
 layout: post
 title:  "Jamie's Math Review Part 1: Functions"
 date:   2016-10-06
-categories: Abstract_Algebra
+categories: Calculus
 ---
 
 Welcome to the first part of my Math Review! The topic of this post will be functions. The majority of the content should be roughly around a pre-calculus level, plus some of the trigonometry I decided to never actually study until now. 
