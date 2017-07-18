@@ -2,7 +2,10 @@
 layout: post
 title:  "Mutation Conservation in Mendelian Genes"
 date:   2015-08-12
-categories: Bioinformatics
+tag:
+- Bioinformatics
+category: blog
+author: jamie
 ---
 
 <p>This is a follow up to the mutation conservation analyses I’ve been doing (you can see the analysis for NPC1 <a href="http://mtc.science/mutation-conservation-across-organisms-in-npc1" rel="nofollow">here</a> and for a set of genes that were found to be replaceable <a href="http://mtc.science/humanization-of-yeast-genes-part-2" rel="nofollow">here</a>) </p>

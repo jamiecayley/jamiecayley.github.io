@@ -2,7 +2,12 @@
 layout: post
 title:  "On Yeast And ALS (Part 3)"
 date:   2015-08-08
-categories: ALS
+tag:
+- Yeast
+- Biology
+- ALS
+category: blog
+author: jamie
 ---
 
 <p>This is the third post on my ALS yeast series. The <a href="http://mtc.science/of-yeast-and-als" rel="nofollow">first post</a> describes existing yeast ALS models and the <a href="http://mtc.science/on-yeast-an-als-part-2" rel="nofollow">second post</a> describes in more detail the project I am working on this summer: chemical modifier screens in yeast models of ALS. </p>

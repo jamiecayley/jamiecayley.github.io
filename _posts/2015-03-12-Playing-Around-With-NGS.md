@@ -2,7 +2,10 @@
 layout: post
 title:  "Playing Around With NGS"
 date:   2015-03-12 
-categories: Bioinformatics
+tag:
+- Bioinformatics
+category: blog
+author: jamie
 ---
 
 <p>Here I will walk you through how to take reads from a sequencer and assemble/map a genome and generate a VCF file + do some functional predictions. </p>

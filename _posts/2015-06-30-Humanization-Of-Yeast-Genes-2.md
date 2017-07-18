@@ -2,7 +2,11 @@
 layout: post
 title:  "Humanization of Yeast Genes (Part 2)"
 date:   2015-06-30 
-categories: Yeast
+tag:
+- Yeast
+- Biology
+category: blog
+author: jamie
 ---
 
 <p>About a month ago I wrote a <a href="http://mtc.science/humanization-of-yeast-genes" rel="nofollow">post</a> in which I mentioned I would be working on a project to try to determine if pathogenic mutations in genes shown on a paper by the Marcotte lab to be replaceable by the human version of the gene, which means that the yeast is able to survive, are in amino acids that are more conserved than the average amino acid in the protein. </p>

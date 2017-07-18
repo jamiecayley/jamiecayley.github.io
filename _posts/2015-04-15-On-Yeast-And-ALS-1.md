@@ -2,7 +2,12 @@
 layout: post
 title:  "On Yeast And ALS (Part 1)"
 date:   2015-04-15 
-categories: ALS
+tag:
+- ALS
+- Yeast
+- Biology
+category: blog
+author: jamie
 ---
 
 <p>Although yeast and humans are separated by billions of years of evolution, yeast makes a really good disease model and can be really helpful to screen compounds and see which of them can rescue the phenotype acquired by inducing a mutation associated with our disease of interest. Below I expand on the 3 yeast models of ALS (actual yeast work to come during the summer!) </p>

@@ -2,7 +2,12 @@
 layout: post
 title:  "On Yeast And ALS (Part 2)"
 date:   2015-07-13
-categories: ALS
+tag:
+- Yeast
+- Biology
+- ALS
+category: blog
+author: jamie
 ---
 
 <p>Back in April I wrote a <a href="http://mtc.science/of-yeast-and-als" rel="nofollow">post</a> describing the currently available yeast models for ALS and mentioned I would be doing yeast work in the summer. </p>

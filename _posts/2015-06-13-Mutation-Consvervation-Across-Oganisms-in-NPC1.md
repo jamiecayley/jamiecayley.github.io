@@ -2,7 +2,10 @@
 layout: post
 title:  "Mutation Conservation Across Organisms in NPC1"
 date:   2015-06-13
-categories: Bioinformatics
+tag:
+- Bioinformatics
+category: blog
+author: jamie
 ---
 
 <p>As I mentioned in my previous post, something really important while using model organisms (I used yeast as an example but this is true for every model organism, like mice, flies, fish, worms) is figuring out whether the results are translatable. Given that I am interning at Perlstein Lab and they are interested in Niemann-Pick Disease, I decided to see if mutations in NPC1 are in conserved amino acids. </p>

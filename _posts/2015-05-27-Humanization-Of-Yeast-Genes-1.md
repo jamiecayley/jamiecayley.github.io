@@ -2,7 +2,11 @@
 layout: post
 title:  "Humanization of Yeast Genes (Part 1)"
 date:   2015-05-27 
-categories: Yeast
+tag:
+- Yeast
+- Biology
+category: blog
+author: jamie
 ---
 
 <p>As I mentioned in my post before, yeast can be a really useful disease model for drug screens. Yeast screens are cheaper than screens using other organisms and you can go through a lot of compounds in very little time. Given that yeast and humans are separated by billions of years of evolution, a relevant question when considering yeast as a disease model is whether the results are translatable, and whether genes retain function after so many years of evolution. </p>
