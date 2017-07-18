@@ -8,5 +8,5 @@ projects: true
 hidden: true # don't count this post in blog pagination
 category: project
 author: jamie
-externalLink: https://jamiecayley.github.io/abstractalgebra
+externalLink: https://jamiecayley.github.io/abstractalgebra/
 ---
