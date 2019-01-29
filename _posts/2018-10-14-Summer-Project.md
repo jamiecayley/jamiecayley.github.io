@@ -9,5 +9,5 @@ projects: true
 hidden: true # don't count this post in blog pagination
 category: project
 author: jamie
-externalLink: https://github.com/jamiecayley/jamiecayley.github.io/blob/master/_posts/jamiecayley.github.io/assets/summer.pdf/
+externalLink: https://jamiecayley.github.io/assets/summer.pdf
 ---
