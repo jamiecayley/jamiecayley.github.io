@@ -1,6 +1,6 @@
 # main text of home
 name: Jamie Cayley
-bio: MMath student at the University of Surrey
+bio: Grad Student & TA at Missouri State University
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -35,8 +35,8 @@ disqus:
 
 # if you don't have any of social below, comment the line
 goodreads: jamiecayley
-facebook: calley.jamie
-# twitter: jamiecayley
+facebook: cayley.jamie
+twitter: jamiecayley
 # google: mygoogle
 instagram: jamie_cayley
 # pinterest: mypinterest
@@ -50,12 +50,12 @@ github: jamiecayley
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: jamie@theeyrie.co.uk
+email: jamiecayley@gmail.com
 
 authors:
     jamie:
-        name: Jamie Calley
-        bio: MMath student at the University of Surrey
+        name: Jamie Cayley
+        bio: Grad Student & TA at Missouri State University
         external-image: false
         picture: assets/images/profile.jpg
         twitter: jamiecayley
